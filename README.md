@@ -1,1 +1,1 @@
-Example of using jQuery library for fron-end web development.
+Example of using jQuery library for front-end web development.
