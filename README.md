@@ -1,0 +1,1 @@
+Example of using jQuery library for fron-end web development.
