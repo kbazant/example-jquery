@@ -1,3 +1,3 @@
 $('li').on('click', function(){
-	$(this).text("Clicked!")
+	$(this).text("Clicked!").delay(800).fadeOut(400);
 });
