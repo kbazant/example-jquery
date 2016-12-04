@@ -23,16 +23,16 @@ $('#add-pet').on('click', function () {
 
 	//Attach the new element to the page
 	$('#posted-pets').append($newPet);
-	
+
 	//Make the 'x' in the corner remove the section it's contained within
-	$('.close').on('click', function(){
+	$('.close').on('click', function () {
 		$(this).parent().remove();
 	});
-	
+
 	// Reset form fields
-  $name.val("");
-  $species.val("Dog");
-  $notes.val("");
+	$name.val("");
+	$species.val("Dog");
+	$notes.val("");
 });
 
 // Images fade in
