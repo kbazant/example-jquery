@@ -1,3 +1,5 @@
-$('body').click(function() {
-	console.log("Clicked!")
+$('#awesomeBtn').on('click', function(event) {
+	console.log(event);
 });
+
+
