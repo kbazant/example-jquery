@@ -24,3 +24,10 @@ $('#add-pet').on('click', function () {
 	//Attach the new element to the page
 	$('#posted-pets').append($newPet);
 });
+
+// Images fade in
+$('img').css('display', 'none').fadeIn(1600);
+
+$('.card').on('click', function(){
+	$(this).toggleClass('selected');
+});
